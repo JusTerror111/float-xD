@@ -1,103 +1,97 @@
 *{
-box-sizing: border-box;
-}
-.container{
-    min-width: 1200px;
-    border: 2px solid red;
-    margin:0 auto;
-}
-.table1{
-    padding: 0px;
-    margin:0px;
-    border: 2px solid red;
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    background-color: rgb(206, 202, 202);
-}
-.Box1{
-    margin: 0px;
-    border: 1px solid pink;
-    width: 200px;
-    height: 200px;
-    background-color: pink;
-    text-align: center;
-}
-.Box2{
-    margin:0px;
-    border: 1px solid pink;
-    width: 200px;
-    min-height: 200px;
-    text-align: center;
-    background-color: pink;
-}
-.block-container{
-    padding: 0px;
-    margin-top:50px;
-    border: 2px solid red;
-    width: 1000px;
-    list-style: none;
-    background-color: rgb(206, 202, 202);
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    }
+    .container{
+        min-width: 1200px;
+        border: 2px solid red;
+        margin:0 auto;
+        flex-grow: 1;
+    }
+    .table1{
+        padding: 0px;
+        margin:0px;
+        border: 2px solid red;
+        width: 1000px;
+        list-style: none;
+        background-color: rgb(206, 202, 202);
+        overflow: hidden;
+    }
+    .Box1{
+        margin: 0px;
+        border: 1px solid pink;
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        float:left;
+    }
+    .Box2{
+        margin:0px;
+        border: 1px solid pink;
+        width: 200px;
+        min-height: 200px;
+        background-color: pink;
+        float: right;
+    }
+    .block-container{
+        padding: 0px;
+        margin-top:50px;
+        border: 2px solid red;
+        width: 1000px;
+        list-style: none;
+        background-color: rgb(206, 202, 202); 
+        overflow: hidden;
+        
     
-
-}
-.Box3{
-    margin: 0px;
-    border: 1px solid pink;
-    width: 200px;
-    height: 200px;
-    background-color: pink;
-    text-align: center;
-}
-.block{
-    margin: 0px;
-    border: 1px solid pink;
-    width: 100px;
-    height: 100px;
-    background-color: pink;
-    text-align: center;
-    float:left;
-    margin-left:15px;
-}
-.table2{
-    padding: 0px;
-    margin-top:50px;
-    border: 2px solid red;
-    width: 1000px;
-    list-style: none;
-    background-color: rgb(206, 202, 202);
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-}
-.Box4{
-    margin: 0px;
-    border: 1px solid pink;
-    width: 200px;
-    height: 200px;
-    background-color: pink;
-    text-align: center;
-    float:left;
-    margin-right: 15px;
-
-}
-.Box5{
-    margin: 0px;
-    border: 1px solid pink;
-    width: 200px;
-    height: 200px;
-    background-color: pink;
-    text-align: center;
-    float:left;
-    margin-left: 15px;
-
-}
-
-.mrgn{
-    margin: 50px;
-}
+    }
+    .Box3{
+        margin: 0px;
+        border: 1px solid pink;
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        float: left;
+        
+    }
+    .block{
+        margin: 0px;
+        border: 1px solid pink;
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        margin-left:15px;
+        float: right;
+    }
+    .table2{
+        padding: 0px;
+        margin-top:50px;
+        border: 2px solid red;
+        width: 1000px;
+        list-style: none;
+        background-color: rgb(206, 202, 202);
+        box-sizing:border-box;
+        overflow: hidden;
+    }
+    .Box4{
+        margin: 0px;
+        border: 1px solid pink;
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        float:left;
+        margin-right: 15px;
+    
+    }
+    .Box5{
+        margin: 0px;
+        border: 1px solid pink;
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        float:right;
+        margin-left: 15px;
+    
+    }
+    
+    .mrgn{
+        margin: 50px;
+    }
