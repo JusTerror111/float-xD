@@ -97,15 +97,7 @@ box-sizing: border-box;
     margin-left: 15px;
 
 }
-.Box6{
-    margin: 0px;
-    border: 1px solid pink;
-    width: 200px;
-    height: 200px;
-    background-color: pink;
-    text-align: center;
-    margin-left: 15px;
-}
+
 .mrgn{
     margin: 50px;
 }
